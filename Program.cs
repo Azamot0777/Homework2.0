@@ -1,32 +1,32 @@
 ﻿using System;
 
-namespace Homework1_1
+namespace Homework2_0
 {
     class Program
     {
         static void Main(string[] args)
         {
-            // System.Console.WriteLine("Задача 2");
+            System.Console.WriteLine("Задача 2");
 
-            // System.Console.Write("a = ");
-            // int a = int.Parse (Console.ReadLine ());
-            // System.Console.Write("b = ");
-            // int b = int.Parse (Console.ReadLine());
+            System.Console.Write("a = ");
+            int a = int.Parse (Console.ReadLine ());
+            System.Console.Write("b = ");
+            int b = int.Parse (Console.ReadLine());
 
-            // if (a != b) 
-            // {
-            //     a++ ; b++;
-            //     System.Console.WriteLine($"a = {a}; b = {b}");
-            // }
-            // else if (a == b) 
-            // {
-            //     a = 0; b = 0;
-            //     System.Console.WriteLine($"a = {a}; b = {b}");
-            // }
-            // else 
-            // {
-            //     System.Console.WriteLine("That is all");
-            // }
+            if (a != b) 
+            {
+                a++ ; b++;
+                System.Console.WriteLine($"a = {a}; b = {b}");
+            }
+            else if (a == b) 
+            {
+                a = 0; b = 0;
+                System.Console.WriteLine($"a = {a}; b = {b}");
+            }
+            else 
+            {
+                System.Console.WriteLine("That is all");
+            }
 
 
 
